@@ -1,10 +1,10 @@
 # Assignment README
 
 ## Author
-Foratzoabi
+Monicah Odipo
 
 ## Description
-This is an assignment for the course /*Course Name*/. The goal of this assignment is to implement a simple client-server communication using shared memory and sockets in C++.
+The goal of this is to implement a simple client-server communication using shared memory and sockets in C++.
 
 ## File Structure
 The assignment directory contains the following files:
