@@ -119,7 +119,7 @@ void create_info_file(const server_setup_information& setup_info, live_server_in
 int main() {
     server_setup_information setup_info;
     // Set up the setup_info with the appropriate values for your server
-    setup_info.port = 7070; // Replace with your desired port number
+    setup_info.port = 8080; // Replace with your desired port number
     setup_info.shm_pathname = "/dev/shm/server_shm1"; // Replace with your desired shared memory pathname
     setup_info.shm_proj_id = 1234; // Replace 1234 with your desired shared memory project ID
     setup_info.info_file_name = "server_info.txt"; // Replace with your desired server info file name
