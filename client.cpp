@@ -11,7 +11,7 @@
 
 int main() {
     server_setup_information setup_info;
-    setup_info.port = 7070; // Replace with your server's port number
+    setup_info.port = 8080; // Replace with your server's port number
     setup_info.shm_pathname = "/dev/shm/server_shm1"; // Replace with your server's shared memory pathname
     setup_info.shm_proj_id = 1234; // Replace 1234 with your server's shared memory project ID
     setup_info.info_file_name = "server_info.txt"; // Replace with your server's info file name
