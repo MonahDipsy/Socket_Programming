@@ -56,7 +56,6 @@ void start_communication(const server_setup_information& setup_info, live_server
         exit(1);
     }
 
-    // Write the server's IP address and port number to the shared memory segment
     char* shm_ptr = (char*)shmat(server.shmid, nullptr, 0);
     if (shm_ptr == (char*)-1) {
         std::cerr << "system error: Attaching to shared memory segment failed.\n";
